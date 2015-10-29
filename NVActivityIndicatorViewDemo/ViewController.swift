@@ -16,36 +16,38 @@ class ViewController: UIViewController {
         self.view.backgroundColor = UIColor(red: CGFloat(237 / 255.0), green: CGFloat(85 / 255.0), blue: CGFloat(101 / 255.0), alpha: 1)
         
         let activityTypes: [NVActivityIndicatorType] = [
-            .BallPulse,
-            .BallGridPulse,
-            .BallClipRotate,
-            .BallClipRotatePulse,
-            .SquareSpin,
-            .BallClipRotateMultiple,
-            .BallPulseRise,
-            .BallRotate,
-            .CubeTransition,
-            .BallZigZag,
-            .BallZigZagDeflect,
-            .BallTrianglePath,
-            .BallScale,
-            .LineScale,
-            .LineScaleParty,
-            .BallScaleMultiple,
-            .BallPulseSync,
-            .BallBeat,
-            .LineScalePulseOut,
-            .LineScalePulseOutRapid,
-            .BallScaleRipple,
-            .BallScaleRippleMultiple,
-            .BallSpinFadeLoader,
-            .LineSpinFadeLoader,
-            .TriangleSkewSpin,
-            .Pacman,
-            .BallGridBeat,
-            .SemiCircleSpin]
-        let cols = 4
-        let rows = 7
+//            .BallPulse,
+//            .BallGridPulse,
+//            .BallClipRotate,
+//            .BallClipRotatePulse,
+//            .SquareSpin,
+//            .BallClipRotateMultiple,
+//            .BallPulseRise,
+//            .BallRotate,
+//            .CubeTransition,
+//            .BallZigZag,
+//            .BallZigZagDeflect,
+//            .BallTrianglePath,
+//            .BallScale,
+//            .LineScale,
+//            .LineScaleParty,
+//            .BallScaleMultiple,
+//            .BallPulseSync,
+            .CannonBallSplash,
+//            .LineScalePulseOut,
+//            .LineScalePulseOutRapid,
+//            .BallScaleRipple,
+//            .BallScaleRippleMultiple,
+//            .BallSpinFadeLoader,
+//            .LineSpinFadeLoader,
+//            .TriangleSkewSpin,
+//            .Pacman,
+//            .BallGridBeat,
+//            .SemiCircleSpin
+        
+        ]
+        let cols = 1
+        let rows = 1
         let cellWidth = Int(self.view.frame.width / CGFloat(cols))
         let cellHeight = Int(self.view.frame.height / CGFloat(rows))
         
