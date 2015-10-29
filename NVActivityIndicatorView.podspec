@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.author             = { "Nguyen Vinh" => "ninjaprox@gmail.com" }
   s.social_media_url   = "http://twitter.com/ninjaprox"
 
-  s.platform     = :ios, '8.0'
+  s.platform     = :ios, '7.0'
 
   s.source       = { :git => "https://github.com/ninjaprox/NVActivityIndicatorView.git", :tag => "v2.1" }
   s.source_files  = "NVActivityIndicatorView/**/*.swift"
